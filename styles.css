@@ -47,6 +47,9 @@ body {
 
 /* CONTENT */
 #content {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
   flex-grow: 1;
 }
 
@@ -190,6 +193,18 @@ body {
   color: #4B5462;
 }
 
+/* PAGES */
+#home {
+  flex-grow: 1;
+  padding: 88px 16px 120px;
+}
+
+@media screen and (min-width: 720px) {
+  #home {
+    padding: 88px 40px 120px;
+  }
+}
+
 @media screen and (min-width: 1096px) {
   #layout {
     box-sizing: border-box;
@@ -215,5 +230,22 @@ body {
 
   #header-burger-menu {
     display: none;
+  }
+
+  #home {
+    padding: 176px 40px 240px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #header {
+    width: 100%;
+    max-width: 1320px;
+    align-self: center;
+  }
+
+  #home {
+    max-width: 1320px;
+    padding: 176px 60px 240px;
   }
 }
