@@ -195,13 +195,97 @@ body {
 
 /* PAGES */
 #home {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
   flex-grow: 1;
   padding: 88px 16px 120px;
+}
+
+.home-what-is-it {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.home-what-is-it-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: normal;
+  color: #111928;
+  text-align: center;
+  margin: 0 0 16px;
+}
+
+.home-what-is-it-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4B5462;
+  text-align: center;
+  margin: 0 0 24px;
+}
+
+.home-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 24px;
+}
+
+.home-card {
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  padding: 4px;
+  border-radius: 24px;
+  background-color: #FCFCFD;
+  box-shadow: 0px 49px 14px 0px rgba(157, 162, 175, 0.00), 0px 32px 13px 0px rgba(157, 162, 175, 0.01), 0px 18px 11px 0px rgba(157, 162, 175, 0.04), 0px 8px 8px 0px rgba(157, 162, 175, 0.07), 0px 2px 4px 0px rgba(157, 162, 175, 0.08);
+}
+
+.home-card-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 20px;
+  border: 1px solid #E5E7EA;
+}
+
+.home-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.home-card-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: normal;
+  color: #374051;
+}
+
+.home-card-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4B5462;
 }
 
 @media screen and (min-width: 720px) {
   #home {
     padding: 88px 40px 120px;
+  }
+
+  .home-what-is-it-title {
+    font-size: 48px;
   }
 }
 
@@ -234,6 +318,15 @@ body {
 
   #home {
     padding: 176px 40px 240px;
+  }
+
+  .home-cards {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .home-card {
+    flex-basis: 33.3%;
   }
 }
 
