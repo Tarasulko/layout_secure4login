@@ -3,9 +3,7 @@ html {
 }
 
 body {
-  display: flex;
   background-color: #E5E7EA;
-  min-height: 914px;
 }
 
 /* LAYOUT */
@@ -19,7 +17,7 @@ body {
 
 /* BACKGROUNDS */
 #background-web {
-  position: absolute;
+  position: fixed;
   top: -160px;
   right: auto;
   left: auto;
@@ -33,7 +31,7 @@ body {
 }
 
 #background-socials {
-  position: absolute;
+  position: fixed;
   top: 120px;
   right: auto;
   left: auto;
@@ -331,7 +329,6 @@ body {
   }
 
   #header {
-    top: 24px;
     margin: 0 40px;
     border-radius: 40px;
   }
