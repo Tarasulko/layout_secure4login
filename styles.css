@@ -213,7 +213,7 @@ body {
   margin: 0 0 200px;
 }
 
-.home-what-is-it-background-wrapper {
+#home-what-is-it-background-wrapper {
   overflow: hidden;
   position: absolute;
   top: auto;
@@ -311,7 +311,7 @@ body {
     margin: 0 0 208px;
   }
 
-  .home-what-is-it-background-wrapper {
+  #home-what-is-it-background-wrapper {
     height: 424px;
     bottom: -200px;
   }
@@ -357,7 +357,7 @@ body {
     margin: 0 0 384px;
   }
 
-  .home-what-is-it-background-wrapper {
+  #home-what-is-it-background-wrapper {
     height: 550px;
     bottom: -368px;
   }
@@ -377,7 +377,7 @@ body {
     margin: 0 0 408px;
   }
 
-  .home-what-is-it-background-wrapper {
+  #home-what-is-it-background-wrapper {
     height: 640px;
     bottom: -392px;
   }
@@ -399,7 +399,7 @@ body {
     margin: 0 0 558px;
   }
 
-  .home-what-is-it-background-wrapper {
+  #home-what-is-it-background-wrapper {
     bottom: -478px;
   }
 }
