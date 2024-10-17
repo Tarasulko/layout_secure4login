@@ -223,8 +223,14 @@ body {
   z-index: -1;
   width: 100vw;
   height: 190px;
-  background-color: red;
-  opacity: .25;
+}
+
+.home-what-is-it-background {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/img/waves.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .home-what-is-it-title {
