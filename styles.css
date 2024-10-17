@@ -91,6 +91,7 @@ body {
   line-height: normal;
   color: #374051;
   text-decoration: none;
+  transition: color 0.15s linear;
 }
 
 .header-navigation-link:hover {
@@ -145,6 +146,7 @@ body {
   line-height: normal;
   color: #374051;
   text-decoration: none;
+  transition: color 0.15s linear;
 }
 
 .sidebar-navigation-link:hover {
@@ -349,6 +351,15 @@ body {
   background-color: #FCFCFD;
   text-decoration: none;
   box-shadow: 0px 49px 14px 0px rgba(157, 162, 175, 0.00), 0px 32px 13px 0px rgba(157, 162, 175, 0.01), 0px 18px 11px 0px rgba(157, 162, 175, 0.04), 0px 8px 8px 0px rgba(157, 162, 175, 0.07), 0px 2px 4px 0px rgba(157, 162, 175, 0.08);
+  transition: background-color 0.15s linear;
+}
+
+.home-social:hover {
+  background-color: #EEFAFA;
+}
+
+.home-social:hover > .home-social-content {
+  border-color: #AFECEF;
 }
 
 .home-social-content {
@@ -360,6 +371,7 @@ body {
   padding: 16px;
   border-radius: 40px;
   border: 1px solid #E5E7EA;
+  transition: border-color 0.15s linear;
 }
 
 .home-social-title {
