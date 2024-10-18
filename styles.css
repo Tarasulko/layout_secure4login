@@ -198,6 +198,8 @@ body {
 }
 
 /* PAGES */
+
+/* HOME */
 #home {
   display: flex;
   flex-direction: column;
@@ -381,6 +383,16 @@ body {
   color: #374051;
 }
 
+/* TEMRS */
+#terms {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-grow: 1;
+  padding: 72px 16px 80px;
+}
+
 @media screen and (min-width: 720px) {
   #home {
     padding: 88px 40px 120px;
@@ -413,6 +425,10 @@ body {
 
   .home-social {
     flex-basis: 308px;
+  }
+
+  #terms {
+    padding: 104px 40px 120px;
   }
 }
 
@@ -467,6 +483,11 @@ body {
 
   .home-social {
     flex-basis: 322px;
+  }
+
+  #terms {
+    max-width: 872px;
+    padding: 108px 112px 120px;
   }
 }
 
