@@ -6,6 +6,25 @@ body {
   background-color: #E5E7EA;
 }
 
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F3F4F6;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9DA2AF;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}
+
 /* LINK */
 .link {
   cursor: pointer;
