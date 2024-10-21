@@ -532,7 +532,25 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
   overscroll-behavior-inline: contain;
-  scrollbar-width: thin;
+  padding: 0 0 8px;
+}
+
+.topic-description-article-scrolled::-webkit-scrollbar {
+  height: 6px;
+}
+
+.topic-description-article-scrolled::-webkit-scrollbar-track {
+  background: #F3F4F6;
+  border-radius: 4px;
+}
+
+.topic-description-article-scrolled::-webkit-scrollbar-thumb {
+  background: #9DA2AF;
+  border-radius: 4px;
+}
+
+.topic-description-article-scrolled::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
 }
 
 .topic-description-bolt {
