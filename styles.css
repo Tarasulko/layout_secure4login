@@ -221,6 +221,7 @@ body {
 
 /* HOME */
 #home {
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -405,6 +406,7 @@ body {
 
 /* TEMRS */
 #terms {
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -415,6 +417,7 @@ body {
 
 /* Privacy */
 #privacy {
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -516,9 +519,22 @@ body {
   margin: 0 0 24px;
 }
 
+.topic-description-article-scrolled {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-inline: contain;
+  scrollbar-width: thin;
+}
+
 .topic-description-bolt {
   font-weight: 600;
   color: #111928;
+}
+
+.table-head {
+  background-color: #F3F4F6;
+  border-right: none !important;
 }
 
 table {
