@@ -30,13 +30,14 @@ body {
   cursor: pointer;
   text-decoration: underline;
   color: #0794A1;
+  transition: color .15s linear;
 }
 
 .link:hover {
   color: #0FBEC9;
 }
 
-.link:visited {
+.link:active {
   color: #047481;
 }
 
