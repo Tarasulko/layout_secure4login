@@ -428,6 +428,14 @@ body {
   margin: 0 0 51px;
 }
 
+.privacy-table-about-us tr > td:last-child {
+  width: 100%;
+}
+
+.privacy-table-about-us td {
+  vertical-align: middle;
+}
+
 /* Common for terms and privacy */
 .link {
   cursor: pointer;
@@ -663,6 +671,14 @@ td {
   #privacy {
     max-width: 872px;
     padding: 108px 112px 120px;
+  }
+
+  .privacy-table-about-us tr > td:first-child {
+    width: 256px;
+  }
+
+  .privacy-table-about-us tr > td:last-child {
+    width: 67%;
   }
 }
 
