@@ -37,7 +37,7 @@ body {
   color: #0FBEC9;
 }
 
-.link:active {
+.link:visited {
   color: #047481;
 }
 
