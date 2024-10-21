@@ -439,6 +439,14 @@ body {
   vertical-align: middle;
 }
 
+.privacy-table-personal-data {
+  width: 688px;
+}
+
+.privacy-table-personal-data td {
+  vertical-align: middle;
+}
+
 /* Common for terms and privacy */
 .link {
   cursor: pointer;
@@ -603,7 +611,9 @@ td {
   .home-social {
     flex-basis: 308px;
   }
+}
 
+@media screen and (min-width: 768px) {
   #terms {
     padding: 104px 40px 120px;
   }
@@ -623,6 +633,10 @@ td {
 
   .topic-title {
     font-size: 32px;
+  }
+
+  .privacy-table-personal-data {
+    width: unset;
   }
 }
 
