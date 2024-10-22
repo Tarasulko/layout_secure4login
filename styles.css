@@ -436,14 +436,26 @@ body {
   text-decoration: none;
   box-shadow: 0px 49px 14px 0px rgba(157, 162, 175, 0.00), 0px 32px 13px 0px rgba(157, 162, 175, 0.01), 0px 18px 11px 0px rgba(157, 162, 175, 0.04), 0px 8px 8px 0px rgba(157, 162, 175, 0.07), 0px 2px 4px 0px rgba(157, 162, 175, 0.08);
   transition: background-color 0.15s linear;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.home-social:hover {
+.home-social:active {
   background-color: #EEFAFA;
 }
 
-.home-social:hover > .home-social-content {
+.home-social:active > .home-social-content {
   border-color: #AFECEF;
+}
+
+@media (hover: hover) {
+  .home-social:hover {
+    background-color: #EEFAFA;
+  }
+  
+  .home-social:hover > .home-social-content {
+    border-color: #AFECEF;
+  }
 }
 
 .home-social-content {
