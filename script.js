@@ -1,4 +1,4 @@
-const SCROLL_SCREENS_TO_SHOW_BUTTON_UP = 1.5;
+const SCROLL_SCREENS_TO_SHOW_BUTTON_UP = 0.75;
 
 document.addEventListener('DOMContentLoaded', () => {
   const pathname = window.location.pathname;
