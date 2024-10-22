@@ -48,6 +48,7 @@ body {
   background-image: url('./assets/img/background-web.webp');
   background-repeat: repeat-x;
   background-position: center;
+  pointer-events: none;
 }
 
 #background-socials {
@@ -63,6 +64,7 @@ body {
   background-image: url('./assets/img/background-socials.webp');
   background-repeat: no-repeat;
   background-position: center bottom;
+  pointer-events: none;
 }
 
 /* CONTENT */
@@ -71,6 +73,8 @@ body {
   justify-content: center;
   align-items: stretch;
   flex-grow: 1;
+  animation-name: showContent;
+  animation-duration: .5s;
 }
 
 /* HEADER */
@@ -248,6 +252,7 @@ body {
   z-index: -1;
   width: 100vw;
   height: 190px;
+  pointer-events: none;
 }
 
 .home-what-is-it-background {
@@ -845,5 +850,15 @@ td {
 
   .home-social {
     flex-basis: 312px;
+  }
+}
+
+@keyframes showContent {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
