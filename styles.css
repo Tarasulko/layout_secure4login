@@ -196,6 +196,55 @@ body {
   cursor: pointer;
 }
 
+/* BUTTON UP */
+#button-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  z-index: 1;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid #E5E7EA;
+  background-color: #FCFCFD;
+  box-shadow: 0px 49px 14px 0px rgba(157, 162, 175, 0.00), 0px 32px 13px 0px rgba(157, 162, 175, 0.01), 0px 18px 11px 0px rgba(157, 162, 175, 0.04), 0px 8px 8px 0px rgba(157, 162, 175, 0.07), 0px 2px 4px 0px rgba(157, 162, 175, 0.08);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s linear, background-color 0.15s linear, border-color 0.15s linear;
+}
+
+#button-up:active {
+  background-color: #EEFAFA;
+  border-color: #AFECEF;
+}
+
+@media (hover: hover) {
+  #button-up.button-up-show:hover {
+    background-color: #EEFAFA;
+    border-color: #AFECEF;
+  }
+}
+
+#button-up div {
+  border: solid #374051;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  margin: 8px 0 0;
+  padding: 6px;
+  transform: rotate(-135deg);
+}
+
+#button-up.button-up-show {
+  opacity: 1;
+  pointer-events: unset;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 /* FOOTER */
 #footer {
   display: flex;
@@ -753,6 +802,13 @@ td {
   #layout {
     box-sizing: border-box;
     padding: 24px 0 0;
+  }
+
+  #button-up {
+    width: 60px;
+    height: 60px;
+    right: 24px;
+    bottom: 24px;
   }
 
   #header {
