@@ -431,6 +431,10 @@ body {
   margin: 0 0 51px;
 }
 
+.privacy-table-about-us {
+  margin: 32px 0;
+}
+
 .privacy-table-about-us tr > td:last-child {
   width: 100%;
 }
@@ -444,6 +448,37 @@ body {
 }
 
 .privacy-table-personal-data td {
+  vertical-align: middle;
+}
+
+.privacy-table-technical-data {
+  width: 688px;
+  margin: 8px 0 0;
+}
+
+.privacy-table-technical-data td {
+  vertical-align: middle;
+}
+
+.privacy-table-your-rights {
+  margin: 32px 0 0;
+  border-radius: 8px 8px 0 0;
+}
+
+.privacy-table-your-rights td {
+  width: 50%;
+  vertical-align: middle;
+}
+
+.privacy-table-your-rights tr:last-of-type td {
+  text-align: center;
+}
+
+.privacy-table-bottom-your-rights {
+  padding: 8px 16px;
+  border-radius: 0 0 8px 8px;
+  border: 1px solid #E5E7EA;
+  border-top: none;
   vertical-align: middle;
 }
 
@@ -654,6 +689,14 @@ td {
   }
 
   .privacy-table-personal-data {
+    width: unset;
+  }
+
+  .privacy-table-technical-data {
+    width: unset;
+  }
+
+  .privacy-table-your-rights td {
     width: unset;
   }
 }
