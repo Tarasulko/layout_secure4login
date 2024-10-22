@@ -483,6 +483,42 @@ body {
 }
 
 /* Common for terms and privacy */
+ul,
+ol {
+  margin: -16px 0 0;
+}
+
+ul li,
+ol li {
+  padding: 0 0 0 28px;
+}
+
+ol {
+  counter-reset: ol-counter;
+}
+
+ol li {
+  counter-increment: ol-counter;
+}
+
+ul li::before {
+  content: "\A";
+  position: relative;
+  bottom: 2px;
+  right: 8px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #4B5462;
+  display: inline-block;
+}
+
+ol li::before {
+  content: counter(ol-counter) ".";
+  position: relative;
+  right: 8px;
+}
+
 .link {
   cursor: pointer;
   text-decoration: underline;
