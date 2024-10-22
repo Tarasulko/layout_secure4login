@@ -6,6 +6,10 @@ body {
   background-color: #F9FAFB;
 }
 
+.body-with-opened-sidebar {
+  overflow: hidden;
+}
+
 /* SCROLLBAR */
 ::-webkit-scrollbar {
   width: 6px;
@@ -49,6 +53,8 @@ body {
   background-repeat: repeat-x;
   background-position: center;
   pointer-events: none;
+  animation-name: show;
+  animation-duration: 1.5s;
 }
 
 #background-socials {
@@ -65,6 +71,8 @@ body {
   background-repeat: no-repeat;
   background-position: center bottom;
   pointer-events: none;
+  animation-name: show;
+  animation-duration: 1.5s;
 }
 
 /* CONTENT */
@@ -73,7 +81,7 @@ body {
   justify-content: center;
   align-items: stretch;
   flex-grow: 1;
-  animation-name: showContent;
+  animation-name: show;
   animation-duration: .5s;
 }
 
@@ -853,7 +861,7 @@ td {
   }
 }
 
-@keyframes showContent {
+@keyframes show {
   from {
     opacity: 0;
   }
