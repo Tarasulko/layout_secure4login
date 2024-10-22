@@ -45,7 +45,7 @@ body {
   z-index: -1;
   width: 100%;
   height: 914px;
-  background-image: url('./assets/img/background-web.png');
+  background-image: url('./assets/img/background-web.webp');
   background-repeat: repeat-x;
   background-position: center;
 }
@@ -60,7 +60,7 @@ body {
   width: 100%;
   height: 431px;
   max-height: 100vh;
-  background-image: url('./assets/img/background-socials.png');
+  background-image: url('./assets/img/background-socials.webp');
   background-repeat: no-repeat;
   background-position: center bottom;
 }
@@ -253,7 +253,7 @@ body {
 .home-what-is-it-background {
   width: 100%;
   height: 100%;
-  background-image: url('./assets/img/waves.png');
+  background-image: url('./assets/img/waves.webp');
   background-size: cover;
   background-position: center bottom;
 }
