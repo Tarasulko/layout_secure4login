@@ -232,8 +232,8 @@ body {
   border: solid #374051;
   border-width: 0 2px 2px 0;
   display: inline-block;
-  margin: 8px 0 0;
-  padding: 6px;
+  margin: 6px 0 0;
+  padding: 4px;
   transform: rotate(-135deg);
 }
 
@@ -805,8 +805,7 @@ td {
   }
 
   #button-up {
-    width: 60px;
-    height: 60px;
+    transform: scale(1.35);
     right: 24px;
     bottom: 24px;
   }
